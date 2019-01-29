@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 import rosegraphics as rg
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
@@ -46,11 +46,12 @@ import rosegraphics as rg
 #                rg.Square(point1, point2)
 #
 #          -- Write the names of three METHODs that Circle objects have:
-#                
+#                clone detach_from attach_to
+
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-#                x, y, r
+#                center radius fill_color
 #
 #     f. What does a RoseWindow RENDER method do?
 #            render: Draw ALL the objects attached to this window.
