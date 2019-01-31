@@ -18,11 +18,11 @@ def main():
     #print_sequence1()
     #print_sequence2()
     #print_sequence3()
-    #draw_circles1()
-    #draw_circles2()
-    #draw_circles3()
+    draw_circles1()
+    draw_circles2()
+    draw_circles3()
     #print_cosines()
-    #draw_cosines_and_sines()
+    draw_cosines_and_sines()
 
 
 
@@ -122,6 +122,7 @@ def draw_circles2():
     window = rg.RoseWindow(400, 400)
     for k in range(5, 40, 2):
         circle = rg.Circle(rg.Point(k*10, 100), 10)
+        circle.fill_color = 'blue'
         circle.attach_to(window)
         window.render(0)
     window.close_on_mouse_click()
