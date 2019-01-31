@@ -72,20 +72,20 @@ def run_test_sum_of_digits():
     # TO DO: 2 (continued).
     # Below this comment, add 3 more test cases of your own choosing.
     # -------------------------------------------------------------------------
-    # Test 2:
+    # Test 1:
     expected = 18
     answer = sum_of_digits(981)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
-    # Test 3:
+    # Test 2:
     expected = 4
     answer = sum_of_digits(22)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
     # Test 3:
     expected = 20
     answer = sum_of_digits(1919)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
 
