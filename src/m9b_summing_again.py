@@ -28,6 +28,15 @@ def run_test_sum_powers():
     print('--------------------------------------------------')
     print('Testing the   sum_powers   function:')
     print('--------------------------------------------------')
+    # Test 1:
+    answer = sum_powers(981)
+    print('Test 1 actual:  ', answer)
+    # Test 2:
+    answer = sum_powers(22)
+    print('Test 2 actual:  ', answer)
+    # Test 3:
+    answer = sum_powers(1919)
+    print('Test 3 actual:  ', answer)
 
 
 def sum_powers(n, p):
@@ -65,6 +74,15 @@ def run_test_sum_powers_in_range():
     print('--------------------------------------------------')
     print('Testing the   sum_powers_in_range   function:')
     print('--------------------------------------------------')
+    # Test 1:
+    answer = sum_powers_in_range(981)
+    print('Test 1 actual:  ', answer)
+    # Test 2:
+    answer = sum_powers_in_range(22)
+    print('Test 2 actual:  ', answer)
+    # Test 3:
+    answer = sum_powers_in_range(1919)
+    print('Test 3 actual:  ', answer)
 
 
 def sum_powers_in_range(m, n, p):
